@@ -8,9 +8,9 @@ import datetime
 
 load_dotenv()
 
-DISCORD_TOKEN = os.environ('DISCORD_TOKEN')
-CHANNEL_ID = int(os.environ('CHANNEL_ID'))
-CROUS_WEBSITE = os.environ('CROUS_WEBSITE')
+DISCORD_TOKEN = os.environ['DISCORD_TOKEN']
+CHANNEL_ID = int(os.environ['CHANNEL_ID'])
+CROUS_WEBSITE = os.environ['CROUS_WEBSITE']
 
 intents = discord.Intents.default()
 intents.message_content = True
